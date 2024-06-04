@@ -43,6 +43,17 @@ public class FindErrorsMinigame : MinigameDefBase
 			Fill = "red",
 			OnClick = (args) => errorspage(args)
 		};
+
+        Image Quit = new()
+        {
+            ImagePath = "images/Art/Quit.png",
+                      X = 25,
+                      Y = 25,
+                      Width = 100,
+                      Height = 100,
+                      OnClick = (args) => {Finish(null, "Art3");}
+        };
+        AddElement(Quit);
 	}
 
 	public void errorspage(EventArgs e)
