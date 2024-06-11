@@ -46,7 +46,7 @@ public class FindErrorsMinigame : MinigameDefBase
 
         Image Quit = new()
         {
-            ImagePath = "images/Art/Quit.png",
+            ImagePath = "images/Quit.png",
                       X = 25,
                       Y = 25,
                       Width = 100,

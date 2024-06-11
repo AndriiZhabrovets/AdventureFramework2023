@@ -2,7 +2,7 @@
 {
     "ArtEntrance": {
         "Tags":["START"],
-        "Image": "images/Art/BG_1_1.png",
+        "Image": "images/Routing/BG/BG_1_1.png",
         "Buttons": {
             "right": {
                 "Type": "preset",
@@ -13,7 +13,7 @@
     },
 
     "Art2": {
-        "Image": "images/Art/BG_1_3.png",
+        "Image": "images/Routing/BG/BG_1_3.png",
         "Buttons": {
             "right": {
                 "Type": "preset",
@@ -29,7 +29,7 @@
     },
 
     "Art3": {
-        "Image": "images/Art/BG_2_2.png",
+        "Image": "images/Routing/BG/BG_2_2.png",
         "Buttons": {
             "down": {
                 "Type": "preset",
@@ -55,7 +55,7 @@
     },
 
     "Art4": {
-        "Image": "images/Art/BG_2_3.png",
+        "Image": "images/Routing/BG/BG_2_3.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
@@ -71,7 +71,7 @@
     },
     
     "Art5": {
-        "Image": "images/Art/BG_2_4.png",
+        "Image": "images/Routing/BG/BG_2_4.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
@@ -86,7 +86,7 @@
         }
     },
     "Art6": {
-        "Image": "images/Art/BG_2_5.png",
+        "Image": "images/Routing/BG/BG_2_5.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
@@ -102,7 +102,7 @@
     },
 
     "Art7": {
-        "Image": "images/Art/BG_3_1.png",
+        "Image": "images/Routing/BG/BG_3_1.png",
         "Buttons": {
             "right": {
                 "Type": "preset",
@@ -117,7 +117,7 @@
         }
     },
     "Art8": {
-        "Image": "images/Art/BG_3_2.png",
+        "Image": "images/Routing/BG/BG_3_2.png",
         "Buttons": {
             "right": {
                 "Type": "preset",
