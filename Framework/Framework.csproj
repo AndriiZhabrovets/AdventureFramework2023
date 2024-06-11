@@ -20,9 +20,9 @@
 
   <Target Name="RunWriteFilePaths" AfterTargets="Build">
     <BuildTasks.WriteFilePaths
-      DirectoryPath="$(MSbuildThisFileDirectory)wwwroot/slides" 
+      DirectoryPath="$(MSbuildThisFileDirectory)wwwroot/slides/Routing" 
       OutputFilePath="$(MSbuildThisFileDirectory)wwwroot/slidefiles.json"
-      FilePrefix="slides/"
+      FilePrefix="slides/Routing/"
     />
   </Target>
 

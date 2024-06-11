@@ -1,7 +1,6 @@
 
 {
     "ArtEntrance": {
-        "Tags":["START"],
         "Image": "images/Routing/BG/BG_1_1.png",
         "Buttons": {
             "right": {

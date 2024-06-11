@@ -1,6 +1,7 @@
 {
     "SlideDefault8": {
-        "Image": "images/HM305_fromEntrance.jpg"
+        "Image": "images/HM305_fromEntrance.jpg",
+        "Buttons": {}
     }
 }
 
