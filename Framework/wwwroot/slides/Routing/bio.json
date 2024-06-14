@@ -1,107 +1,106 @@
 {
     "BiologyEntrance": {
-        "Tags":["START"],
-        "Image": "images/Routing/Biologie/BioRoom1.png",
+        "Image": "images/Routing/Biologie/BioRoomClosedDoor.png",
         "Buttons": {
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Art2"]]
+                "Actions": [["Route", "Biologie2"]]
             }
         }
     },
  
     "Biologie2": {
-        "Image": "images/Biologie/BioRoomClosedDoor.png",
+        "Image": "images/Routing/Biologie/BioRoomOpenedDoor.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "Biologie3"]]
+                "Image": "left",
+                "Actions": [["Route", "BiologyEntrance"]]
             },
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "BiologyEntrance"]]
+                "Actions": [["Route", "Biologie3"]]
             }
         }
     },
  
     "Biologie3": {
-        "Image": "images/Biologie/BioRoomOpenedDoor.png",
+        "Image": "images/Routing/Biologie/BioRoom1.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "Biologie4"]]
+                "Image": "left",
+                "Actions": [["Route", "Biologie2"]]
             },
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Biologie2"]]
+                "Actions": [["Route", "Biologie4"]]
  
             }
         }
     },
  
     "Biologie4": {
-        "Image": "images/Biologie/Bio_n.png",
+        "Image": "images/Routing/Biologie/Bio_n.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "Biologie5"]]
+                "Image": "left",
+                "Actions": [["Route", "Biologie3"]]
             },
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Biologie3"]]
+                "Actions": [["Route", "Biologie5"]]
             }
         }
     },
    
     "Biologie5": {
-        "Image": "images/Biologie/Bio_n_e.png",
+        "Image": "images/Routing/Biologie/Bio_n_e.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "Biologie6"]]
+                "Image": "left",
+                "Actions": [["Route", "Biologie4"]]
             },
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Biologie4"]]
+                "Actions": [["Route", "Biologie6"]]
             }
         }
     },
     "Biologie6": {
-        "Image": "images/Biologie/Bio_n_w.png",
+        "Image": "images/Routing/Biologie/Bio_n_w.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "Biologie7"]]
+                "Image": "left",
+                "Actions": [["Route", "Biologie5"]]
             },
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Biologie5"]]
+                "Actions": [["Route", "Biologie7"]]
             }
         }
     },
     "Biologie7": {
-        "Image": "images/Biologie/Bio_s.png",
+        "Image": "images/Routing/Biologie/Bio_s.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "Biologie8"]]
+                "Image": "left",
+                "Actions": [["Route", "Biologie6"]]
             },
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Biologie6"]]
+                "Actions": [["Route", "Biologie8"]]
             },
         "Blackboard": {
             "Type": "polygon",
@@ -111,32 +110,32 @@
         }
     },
     "Biologie8": {
-        "Image": "images/Biologie/Bio_s_e.png",
+        "Image": "images/Routing/Biologie/Bio_s_e.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "Biologie9"]]
+                "Image": "left",
+                "Actions": [["Route", "Biologie7"]]
             },
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Biologie7"]]
+                "Actions": [["Route", "Biologie9"]]
             }
         }
     },
     "Biologie9": {
-        "Image": "images/Biologie/Bio_s_w.png",
+        "Image": "images/Routing/Biologie/Bio_s_w.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "BiologyEntrance"]]
+                "Image": "left",
+                "Actions": [["Route", "Biologie8"]]
             },
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Biologie8"]]
+                "Actions": [["Route", "BiologyEntrance"]]
             }
         }
     },

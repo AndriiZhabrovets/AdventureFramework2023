@@ -173,7 +173,7 @@ public class BossFightMinigame : MinigameDefBase
 			Update();
 			await Task.Delay(1500);
 			BackgroundImage = "minigame_assets/BossFight/FightPoitionToPunch_2.png";
-			PlayerHealth = PlayerHealth + 30;
+			PlayerHealth = PlayerHealth + 60;
 			if (PlayerHealth > 100)
 			{
 				PlayerHealth = 100;
@@ -273,7 +273,7 @@ public class BossFightMinigame : MinigameDefBase
 
 		var rand = new Random();
 		HitPropability = rand.Next(1, 11);
-		if (HitPropability < 4)
+		if (HitPropability < 5)
 		{
 			await PlayAudio("minigame_assets/BossFight/punch.wav");
 			BackgroundImage = "minigame_assets/BossFight/LeftKickAndRightPunch.png";
@@ -397,7 +397,7 @@ public class BossFightMinigame : MinigameDefBase
 			{
 				AttackButton2.FillOpacity = 0.3;
 				Infotext5.InnerText = "Dmg: 20" +
-								"  ACC: 30%";
+								"  ACC: 40%";
 				Infotext5.Opacity = 1;
 				Update();
 			},
@@ -586,7 +586,7 @@ public class BossFightMinigame : MinigameDefBase
 			OnMouseEnter = async (args) =>
 			{
 				HealButton.FillOpacity = 0.3;
-				Infotext5.InnerText = "VIG: +30" +
+				Infotext5.InnerText = "VIG: +60" +
 								"  REQ: RB";
 				Infotext5.Opacity = 1;
 				Update();
