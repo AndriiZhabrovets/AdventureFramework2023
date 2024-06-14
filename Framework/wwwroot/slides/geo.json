@@ -1,0 +1,276 @@
+
+{
+    "GeoEntrance": {
+        "Tags":["START"],
+        "Image": "images/Geographie/Geography1.png",
+        "Buttons": {
+            "topPreset": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Art2"]]
+            },
+            "Left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art3"]]
+                ,
+                "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art7"]]
+         
+            
+            }
+        }
+    },
+
+    "Art2": {
+        "Image": "images/Geographie/Geography2.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art3"]]
+            },
+            "down": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "GeoEntrance"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Art5"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Art7"]]
+        }
+    }},
+
+    "Art3": {
+        "Image": "images/Geographie/Geography3.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art4"]]
+            },"down": {
+                "Type": "preset",
+                "Image": "down",
+                "Actions": [["Route", "Art2"]]
+            }
+           
+            
+            }
+        },
+
+
+    "Art4": {
+        "Image": "images/Geographie/GeographyBooks.png",
+        "Buttons": {
+            "down": {
+                "Type": "preset",
+                "Image": "down",
+                "Actions": [["Route", "Art3"]]
+            }
+           
+        }
+    },
+
+    "Art5": {
+        "Image": "images/Geographie/GeographyMiniGameArea_1.png",
+        "Buttons": {
+            
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Art 6"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art14"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art13"]]
+            }
+        }
+    },
+
+    "Art6": {
+        "Image": "images/Geographie/GeographyMiniGameArea_2.png",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Art3"]]
+            }, 
+            "Paper": {
+                "Type": "polygon",
+                "Points": "1193,1020,1045,449,647,454,589,1047",
+                "Actions": [["Route", "Geography.cs"]]
+            
+            }
+        }},
+    
+
+    "Art7": {
+        "Image": "images/Geographie/Geography_Exit_1.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Art8"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art2"]]
+            }
+        }
+    },
+
+    "Art8": {
+        "Image": "images/Geographie/Geography_Exit_2.png",
+        "Buttons": {
+            "down": {
+                "Type": "preset",
+                "Image": "down",
+                "Actions": [["Route", "Art7"]]
+            }
+        }
+    },
+
+    "Art9": {
+        "Image": "images/Geographie/Geography_e.png",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art13"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art11"]]
+            },
+            "down": {
+                "Type": "preset",
+                "Image": "down",
+                "Actions": [["Route", "Art2"]]
+        }}
+    },
+
+    "Art10": {
+        "Image": "Framework/wwwroot/images/Routing/Geographie/Geography_n.png",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art11"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art12"]]
+            }
+        }
+    },
+
+    "Art11": {
+        "Image": "images/Geographie/Geography_n_e.png",
+        "Buttons": {
+           "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art13"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art10"]]
+            }
+        }
+    },
+    
+    "Art12": {
+        "Image": "images/Geographie/Geography_n_w.png",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art10"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art15"]]
+            }
+        }
+    },
+
+    "Art13": {
+        "Image": "images/Geographie/Geography_s_e.png",
+        "Buttons": {
+           "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art11"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art12"]]
+            }
+        }
+    },
+
+    "Art14": {
+        "Image": "images/Geographie/Geography_s_w.png",
+        "Buttons": {
+           "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art12"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art12"]]
+            }
+            }
+    },
+    
+  
+    "Art15": {
+        "Image": "images/Geographie/Geography_w.png",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Art15"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art5"]]
+            }
+        }
+    },
+
+    
+
+"Geography.cs": {
+        "Type": "Minigame",
+        "FallbackSlide": "Art6",
+        "MinigameDefClassName": "Framework/Minigames/Geography.cs"
+    }
+    }
+    }
+
+    
+    
