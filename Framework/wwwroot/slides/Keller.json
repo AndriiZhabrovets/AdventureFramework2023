@@ -1,0 +1,251 @@
+{
+    "KellerEntrance": {
+        "Image": "images/Keller/KellerHM_Entrance1_DoorClosed.png",
+        "Buttons": {
+            "top": {
+                
+            
+            "Door1": {
+                "Type": "polygon",
+                "Points": "691,726,682,287,894,290,897,726",
+                "Actions": [["Route", "Art2"]]
+            
+        }
+    }}},
+    "Art2": {
+        "Image": "images/Keller/KellerHM_Entrance1_DoorOpened.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Art3"]]
+            }
+            
+    }},
+        "Art3": {
+        "Image": "images/Keller/KellerHM_Entrance2.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Art4"]]
+            }   
+            }
+        },
+        "Art4": {
+            "Image": "images/Keller/KellerHM_Entrance3.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art5"]]
+                }
+                
+        }},
+        "Art5": {
+            "Image": "images/Keller/KellerHM_Entrance4.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art6"]]
+                }
+                
+        }},
+        "Art6": {
+            "Image": "images/Keller/KellerHM_Entrance5_DoorClosed.png",
+            "Buttons": {
+                "Door2": {
+                "Type": "polygon",
+                "Points": "671,827,668,293,920,302,917,816",
+                "Actions": [["Route", "Art7"]]
+                }
+                
+        }},
+        "Art7": {
+            "Image": "images/Keller/KellerHM_Entrance5_DoorOpened.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art8"]]
+                }
+                
+        }},
+        "Art8": {
+            "Image": "images/Keller/KellerHM_Entrance6.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art9"]]
+                }
+                
+        }},
+        "Art9": {
+            "Image": "images/Keller/KellerHM_Entrance7.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art25"]]
+                }       
+        }},
+        "Art25": {
+            "Image": "images/Keller/KellerToHR_Exit1.png",
+            "Buttons": {
+                "right": {
+                    "Type": "preset",
+                    "Image": "right",
+                    "Actions": [["Route", "Art11"]]
+                },
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art26"]]
+                } 
+                
+        }},
+        "Art26": {
+            "Image": "images/Keller/KellerToHR_Exit2.png",
+            "Buttons": {
+                "down": {
+                    "Type": "preset",
+                    "Image": "down",
+                    "Actions": [["Route", "Art25"]]
+                }}},  
+        "Art10": {
+            "Image": "images/Keller/KellerHR_Entrance.png",
+            "Buttons": {
+                "right": {
+                    "Type": "preset",
+                    "Image": "right",
+                    "Actions": [["Route", "Art11"]]}              
+        }},
+        "Art11": {
+            "Image": "images/Keller/KellerHR_Entrance2.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art12"]]}              
+        }},
+        "Art12": {
+            "Image": "images/Keller/KellerHR_Entrance3_DoorClosed.png",
+            "Buttons": {
+                "Door3": {
+                    "Type": "polygon",
+                    "Points": "642,952,633,180,1016,186,1005,952",
+                    "Actions": [["Route", "Art13"]]
+                    }           
+        }},
+        "Art13": {
+            "Image": "images/Keller/KellerHR_Entrance3_DoorOpen.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art14"]]}  
+                }},
+                "Art14": {
+            "Image": "images/Keller/KellerHR_Entrance4.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art15"]]}  
+                }},
+                "Art15": {
+            "Image": "images/Keller/KellerHR_Entrance5.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art16"]]}  
+                }},
+                "Art16": {
+            "Image": "images/Keller/KellerHR_Entrance6.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art17"]]}  
+                }},
+                "Art17": {
+            "Image": "images/Keller/KellerHR_Entrance7.png",
+            "Buttons": {
+                "left": {
+                    "Type": "preset",
+                    "Image": "left",
+                    "Actions": [["Route", "Art18"]]} ,
+                    "right": {
+                    "Type": "preset",
+                    "Image": "right",
+                    "Actions": [["Route", "Art19"]]}   
+                }},
+                "Art18": {
+            "Image": "images/Keller/KellerHR_Entrance7_Left.png",
+            "Buttons": {
+                "right": {
+                    "Type": "preset",
+                    "Image": "right",
+                    "Actions": [["Route", "Art17"]]}  
+                }},
+                "Art19":{
+                "Image": "images/Keller/KellerHR_Entrance_Right.png",
+            "Buttons": {
+                "left": {
+                    "Type": "preset",
+                    "Image": "left",
+                    "Actions": [["Route", "Art17"]]},
+                    "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art20"]]}  
+                }},
+                "Art20":{
+                "Image": "images/Keller/KellerToHM_Exit1_DoorClosed.png",
+            "Buttons": {
+                
+                    "Door4": {
+                    "Type": "polygon",
+                    "Points": "540,1057,496,3,1158,0,1118,1054",
+                    "Actions": [["Route", "Art21"]]}
+                    }}
+                ,
+                "Art21":{
+                "Image": "images/Keller/KellerToHM_Exit1_DoorOpened.png",
+            "Buttons": {
+                "top": {
+                    "Type": "preset",
+                    "Image": "top",
+                    "Actions": [["Route", "Art22"]]}  
+                }},
+                "Art22":{
+                    "Image": "images/Keller/KellerToHM_Exit2.png",
+                "Buttons": {
+                    "top": {
+                        "Type": "preset",
+                        "Image": "top",
+                        "Actions": [["Route", "Art23"]]}  
+                    }},
+                    "Art23":{
+                        "Image": "images/Keller/KellerToHM_Exit3_DoorClosed.png",
+                    "Buttons": {              
+                            "Door5": {
+                    "Type": "polygon",
+                    "Points": "555,813,1019,798,993,0,592,6",
+                    "Actions": [["Route", "Art24"]]}
+                        }},
+                        "Art24":{
+                        "Image": "images/Keller/KellerToHM_Exit3_DoorOpened.png",
+                    "Buttons": {
+                        "right": {
+                            "Type": "preset",
+                            "Image": "right",
+                            "Actions": [["Route", "KellerEntrance"]]}  
+                        }}
+}
+
+    
+   
