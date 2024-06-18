@@ -37,7 +37,7 @@
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Haupthall"]]
+                "Actions": [["Route", "Biologie15"]]
  
             }
         }

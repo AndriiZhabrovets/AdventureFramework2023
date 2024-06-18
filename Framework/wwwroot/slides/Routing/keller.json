@@ -1,6 +1,6 @@
 {
     "KellerEntrance": {
-        "Tags":["START"],
+        
         "Image": "images/Routing/Keller/KellerHM_Entrance1_DoorClosed.png",
         "Buttons": {           
             "Door1": {

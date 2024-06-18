@@ -1,6 +1,6 @@
 {
     "HauptHalleMitte": {
-        "Tags":["START"],
+        
         "Image": "images/Routing/Haupthall/FromBioToMainHall_1.png",
         "Buttons": {
             "top": {

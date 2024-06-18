@@ -1,6 +1,7 @@
 {
     "PhyEntrance": {
-        "Image": "images/Routing/Physic1.png",
+        "Tags":["START"],
+        "Image": "images/Routing/Physik/Physic1.png",
         "Buttons": {
             "top": {
                 "Type": "preset",
@@ -15,7 +16,7 @@
         }}
     },
     "Phy2": {
-        "Image": "images/Routing/Physic2.png",
+        "Image": "images/Routing/Physik/Physic2.png",
         "Buttons": {
             "top": {
                 "Type": "preset",
@@ -26,7 +27,7 @@
         }
     },
         "Phy3": {
-        "Image": "images/Routing/Physic3.png",
+        "Image": "images/Routing/Physik/Physic3.png",
         "Buttons": {
             "left": {
                 "Type": "preset",
@@ -37,7 +38,7 @@
         },
     
     "Phy4": {
-        "Image": "images/Routing/Physic_e_1.png",
+        "Image": "images/Routing/Physik/Physic_e_1.png",
         "Buttons": {
             "down": {
                 "Type": "preset",
@@ -51,7 +52,7 @@
            
             }}},   
         "Phy5": {
-            "Image": "images/Routing/Physic_e_2.png",
+            "Image": "images/Routing/Physik/Physic_e_2.png",
             "Buttons": {
                 "left": {
                     "Type": "preset",
@@ -65,25 +66,25 @@
                 },
                 "right": {
                     "Type": "preset",
-                    "Image": "top",
-                    "Actions": [["Route", "Phy7"]]
+                    "Image": "right",
+                    "Actions": [["Route", "Phy10"]]
                 }}}, 
                 
             "Phy6": {
-                "Image": "images/Routing/Physic_n_e.png",
+                "Image": "images/Routing/Physik/Physic_n_e.png",
                 "Buttons": {
                     "left": {
                         "Type": "preset",
                         "Image": "left",
-                        "Actions": [["Route", "Phy2"]]
+                        "Actions": [["Route", "Phy9"]]
                     },                           
                     "right": {
                         "Type": "preset",
-                        "Image": "top",
-                        "Actions": [["Route", "Phy7"]]
+                        "Image": "right",
+                        "Actions": [["Route", "Phy5"]]
                     }}}, 
                 "Phy7": {
-            "Image": "images/Routing/Physic_n.png",
+            "Image": "images/Routing/Physik/Physic_n.png",
             "Buttons": {
                 "left": {
                     "Type": "preset",
@@ -92,11 +93,11 @@
                 },
                 "right": {
                     "Type": "preset",
-                    "Image": "top",
+                    "Image": "right",
                     "Actions": [["Route", "Phy6"]]
                 }}}, 
                 "Phy8": {
-                    "Image": "images/Routing/Physic_n_w.png",
+                    "Image": "images/Routing/Physik/Physic_n_w.png",
                     "Buttons": {
                         "left": {
                             "Type": "preset",
@@ -105,24 +106,24 @@
                         },
                         "right": {
                             "Type": "preset",
-                            "Image": "top",
+                            "Image": "right",
                             "Actions": [["Route", "Phy7"]]
                 }}}, 
                 "Phy9": {
-                    "Image": "images/Routing/Physic_n.png",
+                    "Image": "images/Routing/Physik/Physic_n.png",
                     "Buttons": {
                         "left": {
                             "Type": "preset",
                             "Image": "left",
-                            "Actions": [["Route", "Phy6"]]
+                            "Actions": [["Route", "Phy8"]]
                         },
                         "right": {
                             "Type": "preset",
-                            "Image": "top",
+                            "Image": "right",
                             "Actions": [["Route", "Phy6"]]
                         }}}, 
                         "Phy10": {
-                    "Image": "images/Routing/Physic_s_w.png",
+                    "Image": "images/Routing/Physik/Physic_s_w.png",
                     "Buttons": {
                         "left": {
                             "Type": "preset",
@@ -131,7 +132,7 @@
                         },
                         "right": {
                             "Type": "preset",
-                            "Image": "top",
+                            "Image": "right",
                             "Actions": [["Route", "Phy11"]]
                         },
                         "board": {
@@ -141,7 +142,7 @@
             }
                         }}, 
                         "Phy11": {
-                    "Image": "images/Routing/Physic_w.png",
+                    "Image": "images/Routing/Physik/Physic_w.png",
                     "Buttons": {
                         "left": {
                             "Type": "preset",
@@ -150,11 +151,11 @@
                         },
                         "right": {
                             "Type": "preset",
-                            "Image": "top",
+                            "Image": "right",
                             "Actions": [["Route", "Phy8"]]
                         }}},
                         "Phy12": {
-                    "Image": "images/Routing/Physic_w.png",
+                    "Image": "images/Routing/Physik/Physic_w.png",
                     "Buttons": {
                         "left": {
                             "Type": "preset",
@@ -163,7 +164,7 @@
                         },
                         "right": {
                             "Type": "preset",
-                            "Image": "top",
+                            "Image": "right",
                             "Actions": [["Route", "Phy8"]]
                         }}},
         "PhMinigame.cs": {
