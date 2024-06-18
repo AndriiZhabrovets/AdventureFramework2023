@@ -1,6 +1,6 @@
 {
     "GeoEntrance": {
-        
+        "Tags":["START"],
         "Image": "images/Routing/Geographie/Geography1.png",
         "Buttons": {
             "top": {
@@ -111,7 +111,7 @@
             "Paper": {
                 "Type": "polygon",
                 "Points": "1193,1020,1045,449,647,454,589,1047",
-                "Actions": [["Route", "Geography.cs"]]
+                "Actions": [["Route", "Geography"]]
            
             }
         }},
@@ -263,10 +263,10 @@
  
    
  
-"Geography.cs": {
+"Geography": {
         "Type": "Minigame",
         "FallbackSlide": "Geo6",
-        "MinigameDefClassName": "Framework/Minigames/Geography.cs"
+        "MinigameDefClassName":  "Framework.Minigames.MinigameDefClasses.Geography"
     }
     }
     

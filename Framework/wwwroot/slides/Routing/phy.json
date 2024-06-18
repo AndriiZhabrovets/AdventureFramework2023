@@ -1,6 +1,6 @@
 {
     "PhyEntrance": {
-        "Tags":["START"],
+        
         "Image": "images/Routing/Physik/Physic1.png",
         "Buttons": {
             "top": {
@@ -138,7 +138,7 @@
                         "board": {
                 "Type": "polygon",
                 "Points": "476,862,793,801,793,775,589,711,325,746,319,772",
-                "Actions": [["Route", "PhMinigame.cs"]]
+                "Actions": [["Route", "PhMinigame"]]
             }
                         }}, 
                         "Phy11": {
@@ -167,12 +167,11 @@
                             "Image": "right",
                             "Actions": [["Route", "Phy8"]]
                         }}},
-        "PhMinigame.cs": {
+        "PhMinigame": {
         "Type": "Minigame",
         "FallbackSlide": "Phy10",
-        "MinigameDefClassName": "Framework/Minigames/PhMinigame.cs"
-    }
-}
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.PhMinigame"
+    }}
 
 
                         
