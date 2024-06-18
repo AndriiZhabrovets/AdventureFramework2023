@@ -1,6 +1,5 @@
 {
     "BiologyHall": {
-        "Tags":["START"],
         "Image": "images/Routing/Biologie/BioBothCorridorsFromClassroom.png",
         "Buttons": {
             "right": {
@@ -38,7 +37,7 @@
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Biologie15"]]
+                "Actions": [["Route", "Haupthall"]]
  
             }
         }
