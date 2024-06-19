@@ -1,36 +1,27 @@
 {
     "GeoEntrance": {
-        "Tags":["START"],
+        
         "Image": "images/Routing/Geographie/Geography1.png",
         "Buttons": {
-            "top": {
-                "Type": "preset",
-                "Image": "top",
-                "Actions": [["Route", "Geo2"]]
-            },
+            
             "Left": {
                 "Type": "preset",
                 "Image": "left",
-                "Actions": [["Route", "Geo3"]]
+                "Actions": [["Route", "Geo3"]]}
                 ,
                 "right": {
                 "Type": "preset",
                 "Image": "right",
                 "Actions": [["Route", "Geo7"]]
-         
-           
+                
             }
         }
-    }},
+    },
  
     "Geo2": {
         "Image": "images/Routing/Geographie/Geography2.png",
         "Buttons": {
-            "left": {
-                "Type": "preset",
-                "Image": "left",
-                "Actions": [["Route", "Geo3"]]
-            },
+                     
             "down": {
                 "Type": "preset",
                 "Image": "bottom",
@@ -39,11 +30,11 @@
             "top": {
                 "Type": "preset",
                 "Image": "top",
-                "Actions": [["Route", "Geo5"]]
+                "Actions": [["Route", "Geo9"]]
             },
             "right": {
                 "Type": "preset",
-                "Image": "top",
+                "Image": "right",
                 "Actions": [["Route", "Geo7"]]
         }
     }},
@@ -58,6 +49,10 @@
             },"down": {
                 "Type": "preset",
                 "Image": "bottom",
+                "Actions": [["Route", "GeoEntrance"]]
+            },"right": {
+                "Type": "preset",
+                "Image": "right",
                 "Actions": [["Route", "Geo2"]]
             }
            
@@ -160,7 +155,7 @@
             "down": {
                 "Type": "preset",
                 "Image": "bottom",
-                "Actions": [["Route", "Geo2"]]
+                "Actions": [["Route", "Geo3"]]
         }}
     },
  
@@ -186,7 +181,7 @@
            "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Geo13"]]
+                "Actions": [["Route", "Geo9"]]
             },
             "left": {
                 "Type": "preset",
@@ -218,12 +213,12 @@
            "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Geo12"]]
+                "Actions": [["Route", "Geo5"]]
             },
             "left": {
                 "Type": "preset",
                 "Image": "left",
-                "Actions": [["Route", "Geo15"]]
+                "Actions": [["Route", "Geo9"]]
             }
         }
     },
@@ -234,12 +229,12 @@
            "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Geo12"]]
+                "Actions": [["Route", "Geo15"]]
             },
             "left": {
                 "Type": "preset",
                 "Image": "left",
-                "Actions": [["Route", "Geo12"]]
+                "Actions": [["Route", "Geo5"]]
             }
             }
     },
@@ -251,12 +246,16 @@
             "right": {
                 "Type": "preset",
                 "Image": "right",
-                "Actions": [["Route", "Geo15"]]
+                "Actions": [["Route", "Geo12"]]
             },
             "left": {
                 "Type": "preset",
                 "Image": "left",
-                "Actions": [["Route", "Geo5"]]
+                "Actions": [["Route", "Geo14"]]
+            } ,"top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Geo4"]]
             }
         }
     },

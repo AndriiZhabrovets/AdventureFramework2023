@@ -1,6 +1,6 @@
 {
     "PhyEntrance": {
-        
+        "Tags":["START"],
         "Image": "images/Routing/Physik/Physic1.png",
         "Buttons": {
             "top": {
