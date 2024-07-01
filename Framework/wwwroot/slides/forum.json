@@ -340,7 +340,7 @@
                         "board": {
                 "Type": "polygon",
                 "Points": "476,862,793,801,793,775,589,711,325,746,319,772",
-                "Actions": [["Route", "PhMinigame.cs"]]
+                "Actions": [["Route", "PhMinigame"]]
             }
                         }}, 
                         "Phy11": {
@@ -369,10 +369,10 @@
                             "Image": "right",
                             "Actions": [["Route", "Phy8"]]
                         }}},
-        "PhMinigame.cs": {
+        "PhMinigame": {
         "Type": "Minigame",
         "FallbackSlide": "Phy10",
-        "MinigameDefClassName": "Framework.MinigameDefClasses.PhMinigame"
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.PhMinigame"
     }
 
 }
